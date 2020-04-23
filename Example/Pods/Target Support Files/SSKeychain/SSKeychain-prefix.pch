@@ -10,8 +10,3 @@
 #endif
 #endif
 
-#import "LLSafetyTank.h"
-
-FOUNDATION_EXPORT double LSJHSafetyTankVersionNumber;
-FOUNDATION_EXPORT const unsigned char LSJHSafetyTankVersionString[];
-

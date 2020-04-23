@@ -9,14 +9,21 @@
     "file": "LICENSE"
   },
   "authors": {
-    "YxhHLi@163.com": "ljh@weiyian.com"
+    "YxhHLi@163.com": "Ljh"
   },
   "source": {
-    "git": "https://github.com/YxhHLi@163.com/LSJHSafetyTank.git",
+    "git": "https://github.com/JhLhH/LSJHSafetyTank.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "LSJHSafetyTank/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "LSJHSafetyTank/Classes/**/*",
+  "dependencies": {
+    "SSKeychain": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

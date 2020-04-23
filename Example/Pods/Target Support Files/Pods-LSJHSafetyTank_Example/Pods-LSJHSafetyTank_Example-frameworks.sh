@@ -198,9 +198,11 @@ fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LSJHSafetyTank/LSJHSafetyTank.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SSKeychain/SSKeychain.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LSJHSafetyTank/LSJHSafetyTank.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SSKeychain/SSKeychain.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

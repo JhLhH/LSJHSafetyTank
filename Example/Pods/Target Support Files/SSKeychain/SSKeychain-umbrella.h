@@ -10,8 +10,9 @@
 #endif
 #endif
 
-#import "LLSafetyTank.h"
+#import "SSKeychain.h"
+#import "SSKeychainQuery.h"
 
-FOUNDATION_EXPORT double LSJHSafetyTankVersionNumber;
-FOUNDATION_EXPORT const unsigned char LSJHSafetyTankVersionString[];
+FOUNDATION_EXPORT double SSKeychainVersionNumber;
+FOUNDATION_EXPORT const unsigned char SSKeychainVersionString[];
 

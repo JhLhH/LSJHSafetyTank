@@ -21,14 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/YxhHLi@163.com/LSJHSafetyTank'
+  s.homepage         = 'https://github.com/JhLhH/LSJHSafetyTank.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'YxhHLi@163.com' => 'ljh@weiyian.com' }
-  s.source           = { :git => 'https://github.com/YxhHLi@163.com/LSJHSafetyTank.git', :tag => s.version.to_s }
+  s.author           = { 'YxhHLi@163.com' => 'Ljh' }
+  s.source           = { :git => 'https://github.com/JhLhH/LSJHSafetyTank.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'LSJHSafetyTank/Classes/**/*'
   
@@ -39,4 +40,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SSKeychain'
 end
