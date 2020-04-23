@@ -1,0 +1,6 @@
+framework module LSJHSafetyTank {
+  umbrella header "LSJHSafetyTank-umbrella.h"
+
+  export *
+  module * { export * }
+}

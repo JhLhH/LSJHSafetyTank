@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LSJHSafetyTank (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LSJHSafetyTank (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LSJHSafetyTank:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LSJHSafetyTank: 51e113a2283c98772c2f07f7bedc5194db1a0c77
+
+PODFILE CHECKSUM: fac9fcb7f6015c43d052f2b86f5acf7117fcdbcb
+
+COCOAPODS: 1.9.1

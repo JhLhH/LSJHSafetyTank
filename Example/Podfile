@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LSJHSafetyTank_Example' do
+  pod 'LSJHSafetyTank', :path => '../'
+
+  target 'LSJHSafetyTank_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

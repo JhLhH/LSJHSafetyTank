@@ -1,0 +1,22 @@
+{
+  "name": "LSJHSafetyTank",
+  "version": "0.1.0",
+  "summary": "A short description of LSJHSafetyTank.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YxhHLi@163.com/LSJHSafetyTank",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YxhHLi@163.com": "ljh@weiyian.com"
+  },
+  "source": {
+    "git": "https://github.com/YxhHLi@163.com/LSJHSafetyTank.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LSJHSafetyTank/Classes/**/*"
+}
