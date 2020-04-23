@@ -22,7 +22,7 @@ pod 'LSJHSafetyTank'
 
 ## Author
 
-YxhHLi@163.com, ljh@weiyian.com
+YxhHLi@163.com, Ljh
 
 ## License
 
