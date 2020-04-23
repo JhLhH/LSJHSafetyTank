@@ -12,7 +12,7 @@ build/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
-.xcuserdata
+*.xcuserdata
 *.xccheckout
 profile
 *.moved-aside
