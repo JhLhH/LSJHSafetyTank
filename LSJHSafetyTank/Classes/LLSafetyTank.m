@@ -17,12 +17,12 @@
 
 + (BOOL)setLoginPassword:(NSString *)password account:(NSString *)account
 {
-    return [self setPassword:password ForService:WYALoginKeychain account:account];
+    return [self setPassword:password ForService:LLLoginKeychain account:account];
 }
 
 + (BOOL)deleteLoginPasswordForAccount:(NSString *)account
 {
-    return [self deletePasswordForService:WYALoginKeychain account:account];
+    return [self deletePasswordForService:LLLoginKeychain account:account];
 }
 
 + (BOOL)setPassword:(NSString *)password ForService:(NSString *)serviceName account:(NSString *)account
@@ -37,12 +37,12 @@
 
 + (void)checkLoginAccount:(NSString *)account resultBlock:(TouchIDVerifyResultBlock)block
 {
-    [self checkAccount:account serviceName:WYALoginKeychain resultBlock:block];
+    [self checkAccount:account serviceName:LLLoginKeychain resultBlock:block];
 }
 
 + (BOOL)checkLoginAccount:(NSString *)account
 {
-    return [self checkLoginAccount:account serviceName:WYALoginKeychain];
+    return [self checkLoginAccount:account serviceName:LLLoginKeychain];
 }
 
 + (BOOL)verifyEnableFingerPrint

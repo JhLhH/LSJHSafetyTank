@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-#define WYALoginKeychain @"WYALoginKeychain"
+#define LLLoginKeychain @"LLLoginKeychain"
 
 /**
  touchID或faceID验证结果
