@@ -12,6 +12,7 @@
 
 + (NSArray<NSDictionary<NSString *, id> *> *)accountsForService:(NSString *)serviceName error:(NSError * __autoreleasing *)error __attribute__((swift_error(none)))
 {
+    
     return [SSKeychain accountsForService:serviceName error:error];
 }
 
